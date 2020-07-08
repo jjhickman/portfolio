@@ -1,0 +1,123 @@
+.gradient {
+  height: 20px;
+  position: relative;
+  width: 100%;
+  background: radial-gradient(ellipse farthest-side at top center, rgba(0,0,0,0.08), transparent);
+}
+.gradient:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(0,0,0,0.02)), color-stop(rgba(0,0,0,0.02)), to(transparent));
+  background: linear-gradient(to left, transparent, rgba(0,0,0,0.02), rgba(0,0,0,0.02), transparent);
+}
+
+
+hr.skill {
+  width: 70%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000), to(#ffffff));
+  background-image: linear-gradient(to right, #000000, #ffffff);
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+
+
+i{
+  font-size: 3.5rem;
+}
+
+.iconify { 
+  font-size: 3.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.btn-space {
+  margin-right: 10px;
+}
+
+.project::after { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 80%;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+/*
+ * Extra utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }

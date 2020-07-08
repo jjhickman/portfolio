@@ -1,0 +1,223 @@
+{
+    "certification": [
+        {
+            "title": "Developer Associate",
+            "authority": "Amazon Web Services",
+            "id": "R20KJ5FCEFBQQMGD",
+            "verification": "https://aw.certmetrics.com/amazon/public/verification.aspx",
+            "image": "img/amazon-web-services.svg",
+            "duration": "10/2019 - 10/2022"
+        },
+        {
+            "title": "Solutions Architect Associate",
+            "authority": "Amazon Web Services",
+            "id": "TTZ26Q1CMNFQ1D3N",
+            "verification": "https://aw.certmetrics.com/amazon/public/verification.aspx",
+            "image": "img/amazon-web-services.svg",
+            "duration": "11/2019 - 11/2022"
+        }
+    ],
+    "education": [
+        {
+            "title": "Bachelor of Science - Computer Science",
+            "duration": "8/2014 - 5/2018",
+            "gpa": "3.23",
+            "image": "img/utk.png",
+            "school": "https://www.utk.edu",
+            "courses": [
+                "Software Engineering", 
+                "Digital Archaeology",
+                "Systems Programming",
+                "Advanced Operating Systems", 
+                "Computer Graphics", 
+                "Operating Systems",
+                "Computer Security",
+                "Graph Theory"
+            ]
+
+        }
+    ],
+    "experience": [
+        {
+            "title": "Software Engineer I",
+            "duration": "8/2018 - Present",
+            "company": "Sick",
+            "image": "img/sick.png",
+            "color": "#1990C8",
+            "link": "https://www.sick.com/us/en/",
+            "items": [
+                "Developed reliable distributed real-time control systems in C++ and Lua, running 24/7 and processing 100,000's of packages for track and trace.",
+                "Crafted RESTful APIs to manage shipping manifests for customers with Java and Spring to service 1000's of requests daily.",
+                "Maintained projects throughout the software development life cycle, following ISO compliance standards and best practices.",
+                "Reduced object identification error rate by 10% by identifying system bottlenecks with network traffic in distributed control systems using Python and Wireshark.",
+                "Engineered scalable cloud solutions for camera tunnel monitoring systems with Amazon Web Services (S3, CloudFront, IoT Core, SNS) using Node.js and Docker."
+            ]
+
+        },
+        {
+            "title": "Systems Technical Writer",
+            "duration": "7/2017 - 2/2018",
+            "company": "Univesity of Tennessee",
+            "color":"#FF8200",
+            "image": "img/utk-centered.png",
+            "link": "https://sds.utk.edu/",
+            "items": [
+                "Drafted and compiled notes for disabled students enrolled in the systems programming at the University of Tennessee.",
+                "Reviewed student materials and provided guidance for struggling students.",
+                "Developed system level tools such as shells and containers in C++ and used these materials for tutoring."
+            ]
+
+        }
+    ],
+    "portfolio": [
+        {
+            "name": "DIY IoT Home",
+            "image": "img/security-camera.jpg",
+            "demo": "https://github.com/jjhickman/iot-home",
+            "description": "Open source smart home solution complete with security cameras, a control pad, and a cloud-connected IoT hub cluster.",
+            "repo": "https://github.com/jjhickman/iot-home",
+            "technologies": ["Python", "OpenCV", "Keras", "TensorFlow", "SNS", "S3", "Java", "Spring", "Kubernetes", "NGINX", "Raspberry Pi", "Google Coral"]
+        },
+        {
+            "name": "Elastic Visitor Analytics",
+            "image": "img/elastic-visitor-analytics.png",
+            "demo": "",
+            "description": "Website visitor access log analytics through CloudFront using Amazon Elastic MapReduce.",
+            "repo": "https://github.com/jjhickman/elastic-visitor-analytics",
+            "technologies": ["Java", "Hadoop", "HDFS", "Elastic MapReduce", "Amazon Web Services", "MySQL", "Maven", "S3", "RDS"]
+        },
+        {
+            "name": "CloudMonger",
+            "image": "img/comingsoon.jpg",
+            "demo": "https://cloudmonger.net",
+            "description": "Personal blog focused on cybersecurity, IoT, cloud computing, and software design.",
+            "repo": "https://github.com/jjhickman/cloudmonger",
+            "technologies": ["Java", "Spring", "EC2", "RDS", "MySQL", "React", "Gatsby.js", "Amazon Web Services"]
+        },
+        {
+            "name": "My Personal Website",
+            "image": "img/portfolio.png",
+            "demo": "https://jjhickman.com",
+            "description": "This website! Domain managed by Amazon Route 53, content distributed by CloudFront, storage using S3.",
+            "repo": "https://github.com/jjhickman/joshjh.com",
+            "technologies": ["CloudFront", "S3", "Route 53", "Lambda", "SNS", "API Gateway", "React", "Bootstrap", "Amazon Web Services", "Node.js"]
+        }
+
+    ],
+    "skills": {
+        "systems": [
+            {
+                "image": "devicon-apple-original",
+                "alt": "macOS"
+            },
+            {
+                "image": "devicon-linux-plain",
+                "alt": "Linux"
+            },
+            {
+                "image": "devicon-windows8-original",
+                "alt": "Windows"
+            },
+            {
+                "image": "iconify icon:cib:raspberry-pi icon-inline:true",
+                "alt": "Raspberry Pi"
+            }
+        ],
+        "databases": [
+            {
+                "image": "devicon-mongodb-plain-wordmark",
+                "alt": "MongoDB"
+            }, 
+            {
+                "image": "devicon-mysql-plain-wordmark",
+                "alt": "MySQL"
+            },
+            {
+                "image": "devicon-postgresql-plain-wordmark",
+                "alt": "PostgreSQL"
+            }
+        ],
+        "frameworksLibraries": [
+            {
+                "image": "iconify icon:cib:tensorflow icon-inline:true",
+                "alt": "TensorFlow"
+            },
+            {
+                "image": "iconify icon:cib:keras icon-inline:true",
+                "alt": "Keras"
+            },
+            {
+                "image": "devicon-react-original-wordmark",
+                "alt": "React"
+            },
+            {
+                "image": "devicon-express-original-wordmark",
+                "alt": "Express.js"
+            },
+            {
+                "image": "devicon-nodejs-plain-wordmark",
+                "alt": "Node.js"
+            },
+            {
+                "image": "iconify icon-hadoop icon-inline:true",
+                "alt": "Hadoop"
+            },
+            {
+                "image": "iconify icon:cib:spring icon-inline:true",
+                "alt": "Spring"
+            }
+        ],
+        "languages": [
+            {
+                "image": "devicon-cplusplus-plain",
+                "alt": "C++"
+            },
+            {
+                "image": "devicon-python-plain-wordmark",
+                "alt": "Python"
+            },
+            {
+                "image": "devicon-javascript-plain",
+                "alt": "JavaScript"
+            },
+            {
+                "image": "iconify icon:cib:lua icon-inline:true",
+                "alt": "Lua"
+            },
+            {
+                "image": "devicon-java-plain-wordmark",
+                "alt": "Java"
+            }
+        ],
+        "toolsServices": [
+            {
+                "image": "iconify icon:simple-icons:microsoftazure icon-inline:true",
+                "alt": "Microsoft Azure"
+            },
+            {
+                "image": "devicon-git-plain-wordmark",
+                "alt": "Git"
+            },
+            {
+                "image": "devicon-amazonwebservices-plain-wordmark",
+                "alt": "Amazon Web Services"
+            },
+            {
+                "image": "iconify icon:simple-icons:apachemaven icon-inline:true",
+                "alt": "Maven"
+            },
+            {
+                "image": "iconify icon:cib:jenkins icon-inline:true",
+                "alt": "Jenkins"
+            },
+            {
+                "image": "devicon-docker-plain-wordmark",
+                "alt": "Docker"
+            },
+            {
+                "image": "devicon-nginx-original",
+                "alt": "NGINX"
+            }
+        ]
+    }
+}
