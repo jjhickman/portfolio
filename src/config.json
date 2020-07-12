@@ -39,17 +39,17 @@
     ],
     "experience": [
         {
-            "title": "Software Engineer I",
+            "title": "Software Engineer",
             "duration": "8/2018 - Present",
             "company": "Sick",
             "image": "img/sick.png",
             "color": "#1990C8",
             "link": "https://www.sick.com/us/en/",
             "items": [
-                "Developed reliable distributed real-time control systems in C++ and Lua, running 24/7 and processing 100,000's of packages for track and trace.",
+                "Developed reliable distributed real-time control systems in C++ and Lua, processing 100,000's of packages daily for logistics.",
                 "Crafted RESTful APIs to manage shipping manifests for customers with Java and Spring to service 1000's of requests daily.",
-                "Maintained projects throughout the software development life cycle, following ISO compliance standards and best practices.",
-                "Reduced object identification error rate by 10% by identifying system bottlenecks with network traffic in distributed control systems using Python and Wireshark.",
+                "Reduced operational costs by integrating Docker with Jenkins on Windows servers to build C++ applications for Linux releases.",
+                "Created a C# WPF application interfacing with an Allen-Bradley PLC over Ethernet IP to scale with existing systems with micro-controllers.",
                 "Engineered scalable cloud solutions for camera tunnel monitoring systems with Amazon Web Services (S3, CloudFront, IoT Core, SNS) using Node.js and Docker."
             ]
 
