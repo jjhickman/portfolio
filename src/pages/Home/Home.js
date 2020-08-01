@@ -40,7 +40,7 @@ function Home(props) {
                       <div className="col-3">
                         <div className="features-icons-item mx-auto mb-lg-0 mb-lg-3">
                           <div className="features-icons-icon d-flex">
-                            <a href="https://zety.com/mycv/jjhickman">
+                            <a href="/data/JoshHickman2020-07-07.docx">
                           <i className="icon-screen-desktop m-auto iconify icon:mdi:file-account icon-inline:false text-white"/>
                           </a>
                           </div>
@@ -49,7 +49,7 @@ function Home(props) {
                       <div className="col-3">
                         <div className="features-icons-item mx-auto mb-lg-0 mb-lg-3">
                           <div className="features-icons-icon d-flex">
-                            <a href="https://www.github.com/jjhickman">
+                            <a href="https://www.twitter.com/kissmyasimov">
                               <i className="icon-screen-desktop m-auto iconify icon:fa-brands:twitter icon-inline:false text-white"/>
                             </a>
                           </div>

@@ -46,10 +46,10 @@
             "color": "#1990C8",
             "link": "https://www.sick.com/us/en/",
             "items": [
-                "Developed reliable distributed real-time control systems in C++ and Lua, processing 100,000's of packages daily for logistics.",
+                "Developed reliable distributed real-time control systems in C++ and Lua, running 24/7 and processing 100,000's of packages for track and trace.",
                 "Crafted RESTful APIs to manage shipping manifests for customers with Java and Spring to service 1000's of requests daily.",
-                "Reduced operational costs by integrating Docker with Jenkins on Windows servers to build C++ applications for Linux releases.",
-                "Created a C# WPF application interfacing with an Allen-Bradley PLC over Ethernet IP to scale with existing systems with micro-controllers.",
+                "Maintained projects throughout the software development life cycle, following ISO compliance standards and best practices.",
+                "Reduced operational costs by integrating Docker with Jenkins on Windows build servers to build C++ applications for Linux releases.",
                 "Engineered scalable cloud solutions for camera tunnel monitoring systems with Amazon Web Services (S3, CloudFront, IoT Core, SNS) using Node.js and Docker."
             ]
 
@@ -84,15 +84,7 @@
             "demo": "",
             "description": "Website visitor access log analytics through CloudFront using Amazon Elastic MapReduce.",
             "repo": "https://github.com/jjhickman/elastic-visitor-analytics",
-            "technologies": ["Java", "Hadoop", "HDFS", "Elastic MapReduce", "Amazon Web Services", "MySQL", "Maven", "S3", "RDS"]
-        },
-        {
-            "name": "CloudMonger",
-            "image": "img/comingsoon.jpg",
-            "demo": "https://cloudmonger.net",
-            "description": "Personal blog focused on cybersecurity, IoT, cloud computing, and software design.",
-            "repo": "https://github.com/jjhickman/cloudmonger",
-            "technologies": ["Java", "Spring", "EC2", "RDS", "MySQL", "React", "Gatsby.js", "Amazon Web Services"]
+            "technologies": ["Java", "Hadoop", "HDFS", "Elastic MapReduce", "Amazon Web Services", "MySQL", "Lambda", "S3", "RDS"]
         },
         {
             "name": "My Personal Website",
