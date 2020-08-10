@@ -13,14 +13,15 @@ phases:
     pre_build:
         commands:
             - npm install
-
     build:
         commands:
             npm run build
 artifacts:
     type: zip
-    paths:
-        - './build/**/*'
+    files:
+        - '**/*'
+    discard-paths: no
+    base-directory: build
 cache:
     paths:
         - './node_modules/**/*'
