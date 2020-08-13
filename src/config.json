@@ -91,7 +91,7 @@
             "image": "img/portfolio.png",
             "demo": "https://jjhickman.com",
             "description": "This website! Domain managed by Amazon Route 53, content distributed by CloudFront, storage using S3.",
-            "repo": "https://github.com/jjhickman/joshjh.com",
+            "repo": "https://github.com/jjhickman/portfolio",
             "technologies": ["CloudFront", "S3", "Route 53", "Lambda", "SNS", "API Gateway", "React", "Bootstrap", "Amazon Web Services", "Node.js"]
         }
 
