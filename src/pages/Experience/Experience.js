@@ -6,7 +6,6 @@ function Experience(props) {
     return (
         <div id="experience" className="experience">
             <div className="container p-5">
-
                 <div className="row text-center text-white">
                     <h1 className="display-4 mx-auto">Experience</h1>
                 </div>
@@ -25,20 +24,20 @@ function Experience(props) {
                                 <h4>{config.experience[0].title}</h4>
                                 </div>
                                     <div className="col">
-    <strong>{config.experience[0].duration}</strong>
-    </div>
+                                        <strong>{config.experience[0].duration}</strong>
+                                    </div>
                                 </div>
                                 <div className="row">
-                                <ul>
-                                    {
-                                        config.experience[0].items && config.experience[0].items.map((item, index) => {
-                                            return (
-                                                <li key={index}>{item}</li>
-                                            );
-                                        })
-                                    }
-                                </ul>
-                            </div>
+                                    <ul>
+                                        {
+                                            config.experience[0].items && config.experience[0].items.map((item, index) => {
+                                                return (
+                                                    <li key={index}>{item}</li>
+                                                );
+                                            })
+                                        }
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div className="row timeline">
@@ -92,8 +91,31 @@ function Experience(props) {
                             </div>
                         </div>
                         <div className="row align-items-center how-it-works d-flex">
-                            <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-                                <div className="circle-start" />
+                            <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">                               
+                             <div className="testimonial-item">
+                                    <img className="img-fluid rounded-circle" src={config.experience[2].image} alt="University of Tennessee" />
+                                </div>
+                            </div>
+                            <div className="col-10">
+                                <div className="row">
+                                    <div className="col-7">
+                                <h4>{config.experience[2].title}</h4>
+                                </div>
+                                    <div className="col">
+                                        <strong>{config.experience[2].duration}</strong>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <ul>
+                                        {
+                                            config.experience[2].items && config.experience[2].items.map((item, index) => {
+                                                return (
+                                                    <li key={index}>{item}</li>
+                                                );
+                                            })
+                                        }
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

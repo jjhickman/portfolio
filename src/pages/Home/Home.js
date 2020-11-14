@@ -19,7 +19,7 @@ function Home(props) {
                 <div className="form-row">
                   <div className="container">
                     <div className="row mt-5">
-                      <div className="col-3">
+                      <div className="col-4">
                         <div className="features-icons-item mx-auto mb-lg-0 mb-lg-3">
                           <div className="features-icons-icon d-flex">
                             <a href="https://www.linkedin.com/in/joshjh" >
@@ -28,7 +28,7 @@ function Home(props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-3">
+                      <div className="col-4">
                         <div className="features-icons-item mx-auto mb-lg-0 mb-lg-3">
                           <div className="features-icons-icon d-flex">
                             <a href="https://www.github.com/jjhickman">
@@ -37,16 +37,7 @@ function Home(props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-3">
-                        <div className="features-icons-item mx-auto mb-lg-0 mb-lg-3">
-                          <div className="features-icons-icon d-flex">
-                            <a href="/data/JoshHickman2020-07-07.docx">
-                          <i className="icon-screen-desktop m-auto iconify icon:mdi:file-account icon-inline:false text-white"/>
-                          </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-3">
+                      <div className="col-4">
                         <div className="features-icons-item mx-auto mb-lg-0 mb-lg-3">
                           <div className="features-icons-icon d-flex">
                             <a href="https://www.twitter.com/kissmyasimov">
@@ -63,7 +54,6 @@ function Home(props) {
           </div>
         </div>
       </header>
-
       <section className="features-icons bg-light text-center">
         <div className="container">
           <div className="row mb-5">

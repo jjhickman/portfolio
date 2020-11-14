@@ -39,8 +39,22 @@
     ],
     "experience": [
         {
+            "title": "Software Engineer II",
+            "duration": "11/2020 - Present",
+            "company": "Sick",
+            "image": "img/sick.png",
+            "color": "#1990C8",
+            "link": "https://www.sick.com/us/en/",
+            "items": [
+                "Developed scalable microservice applications with NGINX and Node.js REST APIs using Docker.",
+                "Conducted workshops and advised teams on topics including containerization and cloud technologies such as Amazon Web Services and Kubernetes.",
+                "Formulated classification models for packages and luggage using Python, Tensorflow, and Keras.",
+                "Decreased package processing time by over 50% by optimizing archive compression and file-system I/O for C++ multi-threaded applications on Linux."
+            ]
+        },
+        {
             "title": "Software Engineer",
-            "duration": "8/2018 - Present",
+            "duration": "8/2018 - 10/2020",
             "company": "Sick",
             "image": "img/sick.png",
             "color": "#1990C8",
@@ -48,7 +62,6 @@
             "items": [
                 "Developed reliable distributed real-time control systems in C++ and Lua, running 24/7 and processing 100,000's of packages for track and trace.",
                 "Crafted RESTful APIs to manage shipping manifests for customers with Java and Spring to service 1000's of requests daily.",
-                "Maintained projects throughout the software development life cycle, following ISO compliance standards and best practices.",
                 "Reduced operational costs by integrating Docker with Jenkins on Windows build servers to build C++ applications for Linux releases.",
                 "Engineered scalable cloud solutions for camera tunnel monitoring systems with Amazon Web Services (S3, CloudFront, IoT Core, SNS) using Node.js and Docker."
             ]
@@ -62,11 +75,10 @@
             "image": "img/utk-centered.png",
             "link": "https://sds.utk.edu/",
             "items": [
-                "Drafted and compiled notes for disabled students enrolled in the systems programming at the University of Tennessee.",
+                "Drafted and compiled notes for disabled students studying systems programming at the University of Tennessee.",
                 "Reviewed student materials and provided guidance for struggling students.",
                 "Developed system level tools such as shells and containers in C++ and used these materials for tutoring."
             ]
-
         }
     ],
     "portfolio": [
@@ -90,7 +102,7 @@
             "name": "My Personal Website",
             "image": "img/portfolio.png",
             "demo": "https://jjhickman.com",
-            "description": "This website! Domain managed by Amazon Route 53, content distributed by CloudFront, storage using S3.",
+            "description": "This website! Domain managed by Amazon Route 53, content distributed by CloudFront, storage using S3. CI/CD pipeline with CodePipeline.",
             "repo": "https://github.com/jjhickman/portfolio",
             "technologies": ["CloudFront", "S3", "Route 53", "Lambda", "SNS", "API Gateway", "React", "Bootstrap", "Amazon Web Services", "Node.js"]
         }
