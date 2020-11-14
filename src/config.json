@@ -47,7 +47,7 @@
             "link": "https://www.sick.com/us/en/",
             "items": [
                 "Developed scalable microservice applications with NGINX and Node.js REST APIs using Docker.",
-                "Conducted workshops and advised teams on topics including containerization and cloud technologies such as Amazon Web Services and Kubernetes.",
+                "Lead workshops and advised teams on topics including containerization and cloud technologies such as Amazon Web Services and Kubernetes.",
                 "Formulated classification models for packages and luggage using Python, Tensorflow, and Keras.",
                 "Decreased package processing time by over 50% by optimizing archive compression and file-system I/O for C++ multi-threaded applications on Linux."
             ]
