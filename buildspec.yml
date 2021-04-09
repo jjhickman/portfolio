@@ -7,21 +7,22 @@ env:
 phases:
     install:
         runtime-versions:
-            nodejs: 12
+            nodejs: 15
         commands:
-            - npm install -g react-scripts
+            - npm install -g yarn
+            - npm install -g gatsby-cli
     pre_build:
         commands:
-            - npm install
+            - yarn install
     build:
         commands:
-            npm run build
+            - gatsby build
 artifacts:
     type: zip
     files:
         - '**/*'
     discard-paths: no
-    base-directory: build
+    base-directory: public
 cache:
     paths:
         - './node_modules/**/*'
