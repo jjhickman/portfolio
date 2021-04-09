@@ -1,28 +1,28 @@
 version: 0.2
 
 env:
-    variables:
-        NODE_ENV: "production"
+variables:
+  NODE_ENV: "production"
 
 phases:
-    install:
-        runtime-versions:
-            nodejs: 15
-        commands:
-            - npm install -g yarn
-            - npm install -g gatsby-cli
-    pre_build:
-        commands:
-            - yarn install
-    build:
-        commands:
-            - gatsby build
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - npm install -g yarn
+      - npm install -g gatsby-cli
+  pre_build:
+    commands:
+      - yarn install
+  build:
+    commands:
+      - gatsby build
 artifacts:
-    type: zip
-    files:
-        - '**/*'
-    discard-paths: no
-    base-directory: public
+  type: zip
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: public
 cache:
-    paths:
-        - './node_modules/**/*'
+  paths:
+    - "./node_modules/**/*"
