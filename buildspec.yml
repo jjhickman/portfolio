@@ -1,8 +1,8 @@
 version: 0.2
 
 env:
-variables:
-  NODE_ENV: "production"
+  variables:
+    NODE_ENV: "production"
 
 phases:
   install:
